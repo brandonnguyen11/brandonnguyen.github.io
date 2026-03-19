@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Distributed Training System w/ Checkpoints</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+IT+Trad:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="project-outline-page">
+    <a class="project-outline-back-link" href="index.html">&lt; Back</a>
+
+    <div class="project-outline-meta">
+      <span class="project-outline-pill">SYSTEMS</span>
+      <span class="project-outline-date">Mar 10, 2026</span>
+    </div>
+
+    <div class="project-outline-title">Distributed Training System w/ Checkpoints</div>
+    <div class="project-outline-subtitle">
+      Designing an end-to-end distributed ML training system with fault-tolerant checkpointing.
+    </div>
+
+    <div class="project-outline-container">
+      <div class="project-outline-section">
+        <h2>Tech Stack</h2>
+        <ul>
+          <li>Rust (core runtime)</li>
+          <li>Python (client-facing APIs)</li>
+          <li>gRPC (communication among nodes)</li>
+          <li>Checkpoint storage + metadata (TBD: filesystem/S3 + index)</li>
+        </ul>
+      </div>
+
+      <div class="project-outline-section">
+        <h2>PRD</h2>
+        <p>
+          Provide a reliable way to submit distributed training jobs. The system should automatically distribute work
+          to workers, periodically write consistent checkpoints, and resume from the latest checkpoint after failures
+          without losing meaningful progress.
+        </p>
+      </div>
+
+      <div class="project-outline-section">
+        <h2>Tasks</h2>
+        <ul>
+          <li>Define job specification format (TOML) + validation</li>
+          <li>Implement coordinator orchestration and worker lifecycle</li>
+          <li>Design checkpoint protocol and consistency guarantees</li>
+          <li>Implement failure detection and resumption flow</li>
+          <li>Create an end-to-end test plan for partial failures</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; Copyright 2025 Brandon Nguyen</p>
+  </footer>
+</body>
+</html>
+
