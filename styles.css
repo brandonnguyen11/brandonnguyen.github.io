@@ -656,6 +656,15 @@ a{
     color: #0077cc;
 }
 
+.project-outline-github-link{
+    display: inline-block;
+    margin-top: 0.65rem;
+    margin-bottom: 1.25rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #0077cc;
+}
+
 .project-outline-meta{
     display: flex;
     align-items: center;
