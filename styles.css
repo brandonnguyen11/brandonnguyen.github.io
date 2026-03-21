@@ -50,9 +50,9 @@
 
 .aboutHeader {
     color:rgb(0, 0, 0);
-    font-weight: 600;
-    font-family: "Inter", sans-serif;
-    font-size: 3rem;
+    font-weight: 500;
+    font-family: "Geist", sans-serif;
+    font-size: 36px;
     /* border: 2px solid #b72222; */
     line-height: 2.8rem;
     letter-spacing: -1px;
@@ -60,10 +60,10 @@
 }
 
 .aboutMe {
-    color: #787774;
+    color: lab(48.496% 0 0);
     font-weight: 400;
-    font-family: "Inter", sans-serif;
-    font-size: .9rem;
+    font-family: "Geist", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
     line-height: 1.8rem;
     /* border: 2px solid #333333; */
     margin-bottom: 1rem;
@@ -71,11 +71,11 @@
 }
 
 .brief {
-    margin-top: .9rem;
+    margin-top: .3rem;
     font-family: "Inter", sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     /* border: 2px solid #696969; */
-    color: #787774;
+    color: lab(48.496% 0 0);
     font-weight: 400;
     font-style: medium;
 
@@ -106,10 +106,10 @@
 
 .header {
     margin-top: 3rem;
-    font-weight: 600;
+    font-weight: 500;
     font-family: "Inter", sans-serif;
-    font-size: 1.5rem;
-    color: #000000;
+    font-size: 36px;
+    color: lab(2.75381% 0 0);
     margin-bottom: .3rem;
     text-align: left;
     
@@ -362,11 +362,11 @@
     justify-self: center;
     align-items: center;
     margin-top: .5rem;
-    font-weight: 600;
+    font-weight: 500;
     font-family: "Inter", sans-serif;
-    font-size: 3rem;
+    font-size: 36px;
     max-width: 680px;
-    color: #000000;
+    color: rgb(0, 0, 0);
     letter-spacing: -2px;
 }
 
@@ -523,7 +523,7 @@ a{
 
 .project-name{
     /* border: 2px solid #351358; */
-    font-weight: 600;
+    font-weight: 500;
     font-family: "Inter", sans-serif;
     font-size: 1rem;
     margin-bottom: -.3rem;
@@ -538,8 +538,8 @@ a{
     color: #787774;
     font-weight: 400;
     font-family: "Inter", sans-serif;
-    font-size: .79rem;
-    margin-bottom: .6rem;
+    font-size: .75rem;
+    /* margin-bottom: .3rem; */
     padding: 5px;
 }
 
@@ -548,7 +548,7 @@ a{
     font-weight: 400;
     font-family: "Inter", sans-serif;
     font-size: .75rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     padding: 5px;
     color: #787774;
     letter-spacing: .2px;
